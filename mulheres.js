@@ -12,6 +12,10 @@ const app = express(); // iniciando o app
 const porta = 3334;
 app.use(express.json()); // tratando req
 app.use(cors()) // liberando a aplicação para ser usado no frontend
+app.use((req, res, next) => {
+  res.setHeader("Content-Security-Policy", "style-src 'self' 'unsafe-inline'");
+  next();
+});
 
 
 //get
