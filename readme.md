@@ -1,5 +1,7 @@
 
 
+https://back-end-fzuj.onrender.com
+
 const app = express() // express() uma função do expess sera usado no identificador app
 
 app.listen(porta, mostraPorta)
@@ -7,7 +9,7 @@ app.listen(porta, mostraPorta)
 
 localhost 
 servidor local proprio computador 
-3333 pra onde vai minha requisição 
+3334 pra onde vai minha requisição 
 Localhost  é o endereço do seu computador, então estamos dizendo pro navegador acessar um servidor no mesmo computador onde o navegador está rodando.
 
 RESUMO
